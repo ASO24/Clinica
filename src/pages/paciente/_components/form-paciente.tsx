@@ -11,7 +11,7 @@ import {
   FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import { PacienteBaseSchema, PacienteSchema, type Paciente } from "@/types/paciente"
+import { PacienteSchema, type Paciente } from "@/types/paciente"
 import { CrearPaciente, Update } from "@/services/paciente-service"
 
 interface Props{
