@@ -5,7 +5,7 @@ import type { Paciente } from "@/types/paciente"
 import { ObtenerPacientes } from "@/services/paciente-service"
 import DialogPaciente from "./_components/dialog-paciente"
 
-const Paciente = () => {
+const PagePaciente = () => {
     const[pacientes,setPacientes]=useState<Paciente[]>([])
     useEffect(()=>{
         const fetch= async()=>{
@@ -32,4 +32,4 @@ const Paciente = () => {
         </div>
     )
 }
-export default Paciente
+export default PagePaciente
